@@ -1,0 +1,256 @@
+body {
+    background: url(../images/710zFTLbYTL._AC_SY355_.jpg) repeat;
+    /*background-color: #d5f46b;*/
+    padding-top: 0;
+    margin-top: 0;
+    /*font-family: sans-serif;*/
+    font-family: 'Source Sans Pro',Helvetica,Arial,sans-serif;
+    min-width: 546px;
+}
+
+table {
+    max-width: 100%;
+    table-layout: fixed;
+    background-color: rgba(0, 0, 0, 0);
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.section {
+    background: inherit;
+    border-bottom: 3px dotted rgba(0, 0, 0, .2);
+    /*margin-bottom: 22px;*/
+}
+
+.container {
+    border-bottom-left-radius: 15px !important;
+    border-bottom-right-radius: 15px !important;
+}
+
+.content {
+    padding: 20px;
+    background-color: #fff;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.header {
+    background-color: #EDEAE1;
+}
+
+.header h1 {
+    color: #6D5160;
+}
+
+.header span {
+    font-size: 20px;
+    color: #6D5160;
+}
+
+.heading {
+    font-size: 20px;
+    font-weight: inherit;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 22px;
+}
+
+.table th {
+    font-family: "Lucida Console", Courier, monospace;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.wrap {
+    box-shadow: 0 0 30px #535353;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.blog-content {
+    margin: 0;
+    padding: 22px 0;
+}
+
+.blog-item {
+    margin-left: 22px;
+    width: 100%;
+}
+
+.blog-item > blog-content {
+    padding-top: 0;
+} 
+
+.blog-item h5 {
+    text-decoration: underline;
+}
+
+.date-text {
+    font-weight: 400;
+    font-style: italic;
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+}
+
+.span6 {
+    width: 50%;
+}
+
+.span6 img {
+    max-width: 100%;
+    max-height: 100%;
+    /*width: 45%;*/
+    border-radius: 15px;
+}
+
+.single-image img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 15px;
+}
+
+.quote {
+    font-size: 16.5px;
+    padding-right: 15px;
+    padding-left: 0;
+    border-right: 5px solid black;
+    border-left: 0;
+}
+
+.link {
+    margin: 22px 0;
+}
+
+.link a {
+    color: black;
+    text-decoration: underline;
+}
+
+.link a:hover {
+    color: #333333;
+}
+
+a .link-mail{
+    text-decoration: none;
+    color: #9933CC;
+}
+
+.product-left img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+}
+
+.product-right {
+    width: 100%;
+    /*height: 200px;*/
+    font-size: 16px;
+    margin-top: 0;
+    /*overflow: auto;*/
+}
+
+.product-right p{
+    overflow: auto;
+    /*height: 200px;*/
+}
+
+.sushi-list {
+    display: block;
+    width: auto;
+    height: 250px;
+}
+
+/* .product-right p {
+  max-width: 200px;
+  max-height: 200px;
+  margin-top: 0;
+  overflow: auto;
+} */
+
+.img-size {
+    width: 90%;
+}
+
+.img-radius {
+    /* max-width: 750px; */
+    border-radius: 15px;
+}
+
+.hr-dot {
+    border-top: 2px dotted gray;
+    /* width: 750px; */
+}
+
+.share {
+    border: 1px solid #fff;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 8px #535353;
+    top: 10px;
+}
+
+.share a {
+    display: block;
+    color: #222222;
+    font-size: 15px;
+}
+
+.row-content {
+    margin-bottom: 30px;
+}
+
+.row-content a {
+    color: #000;
+    text-decoration: underline;
+}
+
+.row-content a.link-mail {
+    text-decoration: none;
+    color: #3333CC;
+}
+
+.row-content a.link-mail:hover {
+    text-decoration: underline;
+    color: #6666FF;    
+}
+
+.hr-end hr {
+    font-weight: bold !important;
+    padding-bottom: 20px;
+    border-top: 1px solid #CCCCCC;
+}
+
+.footer{
+    width: 100%;
+    /*padding-top: 30px;*/
+    padding-bottom: 40px;
+    background: #fff;
+    /*border-top: #333333 solid 1px;*/
+}
+.footer a{
+    float: left;
+    padding-left: 20px;
+}
+.footer span{
+    float: right;
+    text-align: center;
+    font-weight: bold;
+    padding-right: 4px;
+    padding-left: 4px;
+    margin-right: 2px;
+    box-shadow: 0 0 8px #535353;
+    border-radius: 6px;
+}
+
+#round {
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 15px;
+    margin-bottom: 100px;
+}
+
+.align-right {
+    text-align: right;
+}
